@@ -1,0 +1,18 @@
+{
+    "name": "feuerpanda/maillon",
+    "description": "Extends WordPress with some useful features for sending emails. Adds the option to set up SMTP data via constants and functions to test mail delivery.",
+    "type": "wordpress-plugin",
+	"license": "GPL-2.0+",
+    "autoload": {
+        "psr-4": {
+            "Feuerpanda\\Maillon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Feuerpanda"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
