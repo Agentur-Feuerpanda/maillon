@@ -55,8 +55,8 @@ function deactivate_maillon() {
 	Deactivator::deactivate();
 }
 
-register_activation_hook( __FILE__, 'activate_maillon' );
-register_deactivation_hook( __FILE__, 'deactivate_maillon' );
+register_activation_hook( __FILE__, 'Feuerpanda\Maillon\activate_maillon' );
+register_deactivation_hook( __FILE__, 'Feuerpanda\Maillon\deactivate_maillon' );
 
 /**
  * Begins execution of the plugin.
